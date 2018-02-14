@@ -1,7 +1,7 @@
 Hello World
 ===========
 
-This is a simple image that just gives a response on port 8000. Use this to
+This is a simple image that just gives a response on port 8080. Use this to
 test your web orchestration. It's small enough to fit on one floppy disk:
 
 ```bash
@@ -17,7 +17,7 @@ Sample Usage
 ### Starting a web server on port 80
 
 ```bash
-$ docker run -d --name web-test -p 80:8000 crccheck/hello-world
+$ docker run -d --name web-test -p 80:8080 crccheck/hello-world
 ```
 
 You can now interact with this as if it were a dumb web server:
