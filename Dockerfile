@@ -2,6 +2,7 @@ FROM busybox
 MAINTAINER Chris <c@crccheck.com>
 
 ADD index.html /www/index.html
+ADD health-check /www/health-check
 
 EXPOSE 8080
 
